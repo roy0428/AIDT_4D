@@ -10,4 +10,4 @@
 #SBATCH --error=cerr.txt
 
 module load python/3.9.13-gpu
-localization.sh
+./AIDT_4D/localization.sh
