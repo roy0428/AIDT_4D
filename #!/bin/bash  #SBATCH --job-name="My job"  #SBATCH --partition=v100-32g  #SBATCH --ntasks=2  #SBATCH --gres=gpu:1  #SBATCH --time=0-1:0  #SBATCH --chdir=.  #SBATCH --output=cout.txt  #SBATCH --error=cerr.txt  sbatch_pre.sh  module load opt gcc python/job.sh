@@ -9,5 +9,7 @@
 #SBATCH --output=cout.txt
 #SBATCH --error=cerr.txt
 
+sbatch_pre.sh
 module load python/3.9.13-gpu
 ./AIDT_4D/localization.sh
+sbatch_post.sh
